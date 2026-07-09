@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GameZone | Gaming Products</title>
+
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+<!-- Font Awesome -->
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/products.css">
+
+
+</head>
+
+
+<body>
+
+
+<!-- ================= HEADER ================= -->
+
+
+<header class="header">
+
+
+<nav class="navbar">
+
+
+<a href="index.html" class="logo">
+
+<i class="fa-solid fa-gamepad"></i>
+
+GameZone
+
+</a>
+
+
+
+<ul class="nav-links">
+
+<li>
+<a href="index.html">
+Home
+</a>
+</li>
+
+
+<li>
+<a class="active" href="products.html">
+Products
+</a>
+</li>
+
+
+<li>
+<a href="orders.html">
+Orders
+</a>
+</li>
+
+
+</ul>
+
+
+
+
+<div class="nav-actions">
+
+
+<div class="search-box">
+
+<input 
+type="text"
+id="searchInput"
+placeholder="Search gaming products...">
+
+
+<i class="fas fa-search"></i>
+
+
+</div>
+
+
+
+<button id="themeToggle">
+
+<i class="fas fa-moon"></i>
+
+</button>
+
+
+
+<button>
+
+<i class="fa-regular fa-heart"></i>
+
+<span id="wishlistCount">
+0
+</span>
+
+</button>
+
+
+
+<button>
+
+<i class="fa-solid fa-cart-shopping"></i>
+
+<span id="cartCount">
+0
+</span>
+
+</button>
+
+
+
+<div class="menu-btn">
+
+<i class="fas fa-bars"></i>
+
+</div>
+
+
+</div>
+
+
+</nav>
+
+
+</header>
+
+
+
+
+
+<!-- ================= PAGE TITLE ================= -->
+
+
+<section class="page-banner">
+
+
+<h1>
+Gaming Accessories
+</h1>
+
+
+<p>
+Explore premium keyboards, mice, headsets and gaming gear.
+</p>
+
+
+</section>
+
+
+
+
+
+
+<!-- ================= FILTER SECTION ================= -->
+
+
+<section class="filter-section">
+
+
+
+<div class="filter-box">
+
+
+<h3>
+Filters
+</h3>
+
+
+
+<select id="categoryFilter">
+
+
+<option value="all">
+All Categories
+</option>
+
+
+<option value="keyboard">
+Keyboard
+</option>
+
+
+<option value="mouse">
+Gaming Mouse
+</option>
+
+
+<option value="headset">
+Headset
+</option>
+
+
+<option value="controller">
+Controller
+</option>
+
+
+<option value="chair">
+Gaming Chair
+</option>
+
+
+<option value="monitor">
+Monitor
+</option>
+
+
+</select>
+
+
+
+
+
+<select id="priceFilter">
+
+
+<option value="all">
+All Prices
+</option>
+
+
+<option value="low">
+Under $50
+</option>
+
+
+<option value="medium">
+$50 - $100
+</option>
+
+
+<option value="high">
+Above $100
+</option>
+
+
+</select>
+
+
+
+
+
+
+<select id="ratingFilter">
+
+
+<option value="all">
+All Ratings
+</option>
+
+
+<option value="5">
+★★★★★
+</option>
+
+
+<option value="4">
+★★★★☆
+</option>
+
+
+<option value="3">
+★★★☆☆
+</option>
+
+
+</select>
+
+
+
+
+
+
+<select id="sortProducts">
+
+
+<option value="newest">
+Newest
+</option>
+
+
+<option value="low-high">
+Price Low to High
+</option>
+
+
+<option value="high-low">
+Price High to Low
+</option>
+
+
+<option value="rating">
+Highest Rating
+</option>
+
+
+</select>
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+<!-- ================= PRODUCTS ================= -->
+
+
+<section class="products-page">
+
+
+<div class="product-grid" id="productContainer">
+
+
+
+<!-- PRODUCT CARD 1 -->
+
+
+<div class="product-card"
+data-category="keyboard"
+data-price="99"
+data-rating="5">
+
+
+<div class="product-image">
+
+
+<img src="images/products/keyboard1.jpg"
+alt="RGB Mechanical Keyboard">
+
+
+
+<span class="sale">
+SALE
+</span>
+
+
+</div>
+
+
+
+<div class="product-info">
+
+
+<h3>
+RGB Mechanical Keyboard
+</h3>
+
+
+
+<div class="rating">
+★★★★★
+</div>
+
+
+
+<h4>
+$99.99
+</h4>
+
+
+
+<div class="product-buttons">
+
+
+<button class="quick-view">
+<i class="fas fa-eye"></i>
+</button>
+
+
+<button class="wishlist">
+<i class="far fa-heart"></i>
+</button>
+
+
+<button class="compare">
+<i class="fas fa-code-compare"></i>
+</button>
+
+
+
+</div>
+
+
+
+<button class="add-cart">
+
+Add To Cart
+
+</button>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- PRODUCT CARD 2 -->
+
+
+<div class="product-card"
+data-category="mouse"
+data-price="59"
+data-rating="5">
+
+
+<div class="product-image">
+
+
+<img src="images/products/mouse1.jpg"
+alt="Gaming Mouse">
+
+
+</div>
+
+
+
+<div class="product-info">
+
+
+<h3>
+RGB Gaming Mouse Pro
+</h3>
+
+
+<div class="rating">
+★★★★★
+</div>
+
+
+<h4>
+$59.99
+</h4>
+
+
+
+<div class="product-buttons">
+
+
+<button class="quick-view">
+<i class="fas fa-eye"></i>
+</button>
+
+
+<button class="wishlist">
+<i class="far fa-heart"></i>
+</button>
+
+
+<button class="compare">
+<i class="fas fa-code-compare"></i>
+</button>
+
+
+</div>
+
+
+<button class="add-cart">
+
+Add To Cart
+
+</button>
+
+
+</div>
+
+
+</div>
