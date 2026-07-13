@@ -1,501 +1,210 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>GameZone | Gaming Products</title>
-
-
-<!-- Google Font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-
-<!-- Font Awesome -->
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-
-<!-- CSS -->
-
-
-<link rel="stylesheet" href="products.css">
-
-
-</head>
-
-
-<body>
-
-
-<!-- ================= HEADER ================= -->
-
-
-<header class="header">
-
-
-<nav class="navbar">
-
-
-<a href="index.html" class="logo">
-
-<i class="fa-solid fa-gamepad"></i>
-
-GameZone
-
-</a>
-
-
-
-<ul class="nav-links">
-
-<li>
-<a href="index.html">
-Home
-</a>
-</li>
-
-
-<li>
-<a class="active" href="products.html">
-Products
-</a>
-</li>
-
-
-<li>
-<a href="orders.html">
-Orders
-</a>
-</li>
-
-
-</ul>
-
-
-
-
-<div class="nav-actions">
-
-
-<div class="search-box">
-
-<input 
-type="text"
-id="searchInput"
-placeholder="Search gaming products...">
-
-
-<i class="fas fa-search"></i>
-
-
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script>tailwind.config={darkMode:"class",theme:{extend:{"colors":{"error-container":"#93000a","surface-dim":"#121317","error":"#ffb4ab","on-surface-variant":"#c2caad","inverse-primary":"#4b6700","on-tertiary-fixed-variant":"#47464b","on-secondary-fixed-variant":"#474646","surface-container-highest":"#343539","primary":"#ffffff","tertiary":"#ffffff","on-primary-fixed-variant":"#374e00","on-surface":"#e3e2e7","surface-container":"#1e1f23","on-secondary-container":"#bab8b7","surface-container-low":"#1a1b1f","on-primary-fixed":"#141f00","on-error":"#690005","inverse-on-surface":"#2f3034","surface-bright":"#38393d","primary-fixed-dim":"#a0d800","on-tertiary":"#303034","on-primary":"#253600","primary-container":"#b7f700","secondary-container":"#4a4949","primary-fixed":"#b7f700","on-tertiary-fixed":"#1b1b1f","on-primary-container":"#506e00","surface-tint":"#a0d800","surface-container-high":"#292a2e","tertiary-fixed-dim":"#c8c5cb","secondary":"#c9c6c5","on-secondary":"#313030","inverse-surface":"#e3e2e7","outline":"#8c9479","on-error-container":"#ffdad6","secondary-fixed-dim":"#c9c6c5","on-background":"#e3e2e7","on-tertiary-container":"#656468","background":"#121317","surface-variant":"#343539","tertiary-container":"#e4e1e7","outline-variant":"#434933","surface-container-lowest":"#0d0e12","on-secondary-fixed":"#1c1b1b","surface":"#121317","secondary-fixed":"#e5e2e1","tertiary-fixed":"#e4e1e7"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"section-gap":"160px","margin-mobile":"20px","margin-desktop":"80px","gutter":"24px","container-max":"1440px","base":"8px"},"fontFamily":{"body-lg":["Inter"],"headline-md":["Inter"],"label-caps":["Geist"],"display-lg":["Inter"],"body-md":["Inter"],"mono-data":["Geist"],"display-lg-mobile":["Inter"]},"fontSize":{"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-md":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-caps":["12px",{"lineHeight":"16px","letterSpacing":"0.1em","fontWeight":"700"}],"display-lg":["72px",{"lineHeight":"80px","letterSpacing":"-0.04em","fontWeight":"800"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"mono-data":["14px",{"lineHeight":"20px","fontWeight":"500"}],"display-lg-mobile":["40px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}]}}}}</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;family=Geist:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/></head><body class="bg-surface text-on-surface font-body-md selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl border-b border-outline-variant/10 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-container-max mx-auto px-margin-desktop flex items-center justify-between"><div class="flex items-center gap-base"><img alt="GameZone Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn_xEcolY2_sa6CdSIi3XyGi1UxIUxADrg8f7ykavdJq3LwbnummPiwminf1V6_dIF0ZU5UsBRcaA8gfnjOzfBFmxZggjd-zLP-Qge2oojRuNpuw7UmqdHXFWXDii567lYYFysrwtPTMFGVyUkdwY2XvOfQmuTseISM8Eiz3cPPyDvhMv6x4uXhy1GOjBPBGDRMGRpKKCN8Sxa9c1_TZrPLEi_8wK0hHPam4NnXeu3aOVbFVY9gZie"/><span class="font-label-caps text-label-caps text-primary tracking-[0.2em] uppercase">GameZone</span></div><nav class="hidden md:flex items-center gap-gutter" data-active-classes="text-primary border-b-2 border-primary-fixed-dim"><a aria-current="page" class="font-label-caps transition-colors py-2 text-primary border-b-2 border-primary-fixed-dim" data-path="shop" href="#">Shop</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors py-2" data-path="explore" href="#">Explore</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors py-2" data-path="pro-series" href="#">Pro Series</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors py-2" data-path="community" href="#">Community</a></nav><div class="flex items-center gap-6"><button class="text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined">search</span></button><button class="text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined">shopping_cart</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center cursor-pointer hover:bg-primary-fixed-dim transition-colors"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface"><div class="flex flex-col w-full">
+<!-- Header Section -->
+<section class="max-w-container-max mx-auto px-margin-desktop pt-12 pb-24 w-full">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-gutter">
+<div class="space-y-4">
+<div class="flex items-center gap-4 text-primary-fixed-dim">
+<span class="h-[1px] w-12 bg-primary-fixed-dim"></span>
+<span class="font-label-caps text-label-caps tracking-widest uppercase">Hardware Repository</span>
 </div>
-
-
-
-<button id="themeToggle">
-
-<i class="fas fa-moon"></i>
-
-</button>
-
-
-
-<button>
-
-<i class="fa-regular fa-heart"></i>
-
-<span id="wishlistCount">
-0
-</span>
-
-</button>
-
-
-
-<button>
-
-<i class="fa-solid fa-cart-shopping"></i>
-
-<span id="cartCount">
-0
-</span>
-
-</button>
-
-
-
-<div class="menu-btn">
-
-<i class="fas fa-bars"></i>
-
+<h1 class="font-display-lg text-display-lg text-primary">The Arsenal</h1>
 </div>
-
-
+<div class="flex flex-col items-end">
+<span class="font-mono-data text-mono-data text-on-surface-variant opacity-40 uppercase">Inventory Status</span>
+<span class="font-display-lg text-headline-md text-primary">48 <span class="text-on-surface-variant font-body-md opacity-50 ml-2">Units Optimized</span></span>
 </div>
-
-
+</div>
+</section>
+<!-- Filter & Sort Navigation -->
+<nav class="sticky top-16 z-40 bg-surface/60 backdrop-blur-2xl border-y border-outline-variant/10">
+<div class="max-w-container-max mx-auto px-margin-desktop py-6 flex flex-wrap items-center justify-between gap-gutter">
+<div class="flex items-center gap-12">
+<div class="group cursor-pointer">
+<span class="font-label-caps text-label-caps text-on-surface-variant group-hover:text-primary transition-colors">Category</span>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-body-md text-primary">All Gear</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">keyboard_arrow_down</span>
+</div>
+</div>
+<div class="group cursor-pointer">
+<span class="font-label-caps text-label-caps text-on-surface-variant group-hover:text-primary transition-colors">Series</span>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-body-md text-primary">Pro Series</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">keyboard_arrow_down</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-8">
+<div class="h-8 w-[1px] bg-outline-variant/20 hidden md:block"></div>
+<div class="flex items-center gap-4 group cursor-pointer">
+<span class="font-label-caps text-label-caps text-on-surface-variant">Sort By</span>
+<span class="font-body-md text-primary">Newest First</span>
+<span class="material-symbols-outlined text-[20px] text-primary">sort</span>
+</div>
+</div>
+</div>
 </nav>
-
-
-</header>
-
-
-
-
-
-<!-- ================= PAGE TITLE ================= -->
-
-
-<section class="page-banner">
-
-
-<h1>
-Gaming Accessories
-</h1>
-
-
-<p>
-Explore premium keyboards, mice, headsets and gaming gear.
-</p>
-
-
+<!-- Product Grid -->
+<section class="max-w-container-max mx-auto px-margin-desktop py-section-gap w-full">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Product Card 01 -->
+<div class="group relative flex flex-col bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container">
+<div class="absolute top-6 right-6 z-10">
+<span class="font-mono-data text-[10px] px-2 py-1 bg-primary-fixed text-on-primary-fixed uppercase tracking-tighter">In Stock</span>
+</div>
+<div class="relative aspect-square overflow-hidden mb-12">
+<img class="w-full h-full object-contain mix-blend-lighten transition-transform duration-700 group-hover:scale-110" data-alt="A sleek, matte black professional gaming mouse with sharp geometric angles and a carbon fiber texture, hovering over a minimalist dark glass surface. The lighting is cold and clinical with a subtle Cyber Lime glow reflecting off the scroll wheel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkoisXPmFJu71Kslk9sYo_UMyYIqWBmgUr5wcxYSzlkjO2jyvjwGYNv80rKrj2hNlqGZeS-cxtjqGosTSklbbHTE_1TCegvYnaH6lCdyyxZXrXqbCgEA-9mv6JfIW_h5hJ6Z0WqM9A18_rPpPt0ft2HR1Eublt1rFFRlXMfD5A4enX2GjuqSHZ4dQwH1bmtik59_dfyTGjuMvT4sGtVO8ShMK7Vgq8WeyL_-xtLOcVkudRwcezjiUD"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
+<span class="font-label-caps text-label-caps bg-primary text-on-primary px-6 py-3 tracking-widest uppercase">Quick Add</span>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="font-headline-md text-headline-md text-primary">Apex-V1</h3>
+<span class="font-mono-data text-body-lg text-primary-fixed-dim">$189.00</span>
+</div>
+<p class="font-body-md text-on-surface-variant opacity-60">High-Precision Optical Sensor / 8000Hz Polling Rate</p>
+</div>
+<button class="absolute inset-0 z-0 opacity-0"></button>
+</div>
+<!-- Product Card 02 -->
+<div class="group relative flex flex-col bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container md:mt-24">
+<div class="relative aspect-square overflow-hidden mb-12">
+<img class="w-full h-full object-contain mix-blend-lighten transition-transform duration-700 group-hover:scale-110" data-alt="A mechanical 65% keyboard with transparent keycaps and a brushed aluminum base. Internal circuitry is partially visible through the glass-like chassis. Soft neutral white LEDs illuminate the keys from beneath in a minimalist workshop setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhMBm8MURz360wGen1kHnh08yZ_eI8JaaQeXpw0d1AYCaQeq301eEVZnUDITuqS1h8grQeWVUbFtYHzivxWDNXZnu2mjU5MqeRUPTBd4WC0p0pX_c6SsrdBH2Q9YirLHMfjNmiT58CZ8Rhg7-3eAz1yvgOIaor4JCQ_CfTnQRxzp_S39USj_fEFURfBNkKgQ82IMEk5YJpfxd6HWU0G9a1u5nyjre2QxhwJI1mGCExlNCkjVZKXrkd"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
+<span class="font-label-caps text-label-caps bg-primary text-on-primary px-6 py-3 tracking-widest uppercase">Quick Add</span>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="font-headline-md text-headline-md text-primary">Core Shift</h3>
+<span class="font-mono-data text-body-lg text-primary-fixed-dim">$245.00</span>
+</div>
+<p class="font-body-md text-on-surface-variant opacity-60">Linear Optical Switches / Hot-Swappable PCB</p>
+</div>
+</div>
+<!-- Product Card 03 -->
+<div class="group relative flex flex-col bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container">
+<div class="relative aspect-square overflow-hidden mb-12">
+<img class="w-full h-full object-contain mix-blend-lighten transition-transform duration-700 group-hover:scale-110" data-alt="High-end noise canceling gaming headphones with large orbital earcups and a detachable metal boom mic. The finish is a dark titanium gray with subtle leather stitching on the headband. The product is shot from a low angle on a black marble pedestal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_0Qx1i6WyD-FfPz0YHpOAuxFlVXPJDbQAgioPktKjs5WCvFRDuu49KHAzYySVo93MlbiwqzZnLoKF7tXd3R-eJg1F2AscMEsopiSWc5O0ip-9Dj2qe5iCDTranRnPO-aUHXnR-2h9g_vhrX5aYYy6jte2ZfxKCfGW8DNlsgwCfw_M8yPSu9ga7ixkivmh60Xejvw03rYasCoZZYhV5t5-Qhgyuhww_kCWVdhiVRTiN1l7D8oKcDK5"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
+<span class="font-label-caps text-label-caps bg-primary text-on-primary px-6 py-3 tracking-widest uppercase">Quick Add</span>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="font-headline-md text-headline-md text-primary">Sonic Arc</h3>
+<span class="font-mono-data text-body-lg text-primary-fixed-dim">$320.00</span>
+</div>
+<p class="font-body-md text-on-surface-variant opacity-60">7.1 Spatial Audio / 50mm Graphene Drivers</p>
+</div>
+</div>
+<!-- Product Card 04 -->
+<div class="group relative flex flex-col bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container">
+<div class="relative aspect-square overflow-hidden mb-12">
+<img class="w-full h-full object-contain mix-blend-lighten transition-transform duration-700 group-hover:scale-110" data-alt="A heavy-duty aluminum gaming mousepad with a micro-textured surface and an integrated wireless charging coil. The edges are diamond-cut for a metallic glint under low key studio lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJolwj31naQ2xBosbJ9oc-seD5UZZMubQSoFHt-GNJjP5gA9ID5meToAhDRWSnR7wHaiERtBWnd7PdLFLI5t2EpCGGBgILXWrzuiW6PRm5ovwzbuL7xUF2EDFdCkJ45yxpo90gnNT48-uBXFdG8T5_7T80FwQnezj3s8vGPWA1nQAAgHTB_tXAykXV12LLKVNaOuFGowBlvFArujstttLMZtqlWpZTViVlGBWS6YYKhcgOA-roCdCu"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
+<span class="font-label-caps text-label-caps bg-primary text-on-primary px-6 py-3 tracking-widest uppercase">Quick Add</span>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="font-headline-md text-headline-md text-primary">Surface-X</h3>
+<span class="font-mono-data text-body-lg text-primary-fixed-dim">$85.00</span>
+</div>
+<p class="font-body-md text-on-surface-variant opacity-60">Inductive Charging / Zero-Friction Polymer</p>
+</div>
+</div>
+<!-- Product Card 05 -->
+<div class="group relative flex flex-col bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container md:mt-24">
+<div class="relative aspect-square overflow-hidden mb-12">
+<img class="w-full h-full object-contain mix-blend-lighten transition-transform duration-700 group-hover:scale-110" data-alt="A professional-grade capture card with a futuristic heatsink design and glowing status indicators. The body is made of semi-transparent smoke-colored acrylic. It is shown connected to braided cables on a tech-heavy desk." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwjDnN1R_o9s6TBTJVscbz1EhXELMbrDDJrwTfsOdWsL46kQfSda9gx4hE0H1HBzRAZhv0guJooKCK6dvUe8dps_MX2zECN87CSHO4e-R4PluUzOJcrtufpJh9R0_6_LLTteeZjG96Qr3RkkbGv6eFQcDo-LTn_Vl2qCMs5PYD9SI4b_MMGhd-d-8x1GF8Vgxytx-0TVezZcQCj9PRxI367-wCSJiEP1dY41EUoN5HgqCeNC8Kfp7A"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
+<span class="font-label-caps text-label-caps bg-primary text-on-primary px-6 py-3 tracking-widest uppercase">Quick Add</span>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="font-headline-md text-headline-md text-primary">Link Stream</h3>
+<span class="font-mono-data text-body-lg text-primary-fixed-dim">$195.00</span>
+</div>
+<p class="font-body-md text-on-surface-variant opacity-60">4K60 Zero-Latency Bypass / USB-C 3.2</p>
+</div>
+</div>
+<!-- Product Card 06 -->
+<div class="group relative flex flex-col bg-surface-container-low p-8 transition-all duration-500 hover:bg-surface-container">
+<div class="relative aspect-square overflow-hidden mb-12">
+<img class="w-full h-full object-contain mix-blend-lighten transition-transform duration-700 group-hover:scale-110" data-alt="A minimalist monitor arm with a gas-spring mechanism and integrated cable management. Finished in a matte white powder coat, looking incredibly clean against a dark gray background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsZ_Si5kV3PZJNfskojEx7fc92h9RJcsZTjUKNGqGAx1LJnD9aaUxU337jebP-sQAlHjHTeHXtV0qG_7gM3atWbrE6KH7nFfjZ1CcQC2zTHVSXERcV9daByH1RrU4wPFOm13eEOeRi4wpWu_M9T1cOJ3bmRNAwu3DOWQTjsjRrUTnzmfAJehD5qXX8Q_u0PLs5mTtqebtZWm1-sKq4OymWxMNypcWB8Q-0M2IS6fcze-q5eGZXT3Iy"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
+<span class="font-label-caps text-label-caps bg-primary text-on-primary px-6 py-3 tracking-widest uppercase">Quick Add</span>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="font-headline-md text-headline-md text-primary">Pivot Pro</h3>
+<span class="font-mono-data text-body-lg text-primary-fixed-dim">$150.00</span>
+</div>
+<p class="font-body-md text-on-surface-variant opacity-60">Dynamic Gas Spring / 360-Degree Rotation</p>
+</div>
+</div>
+</div>
 </section>
-
-
-
-
-
-
-<!-- ================= FILTER SECTION ================= -->
-
-
-<section class="filter-section">
-
-
-
-<div class="filter-box">
-
-
-<h3>
-Filters
-</h3>
-
-
-
-<select id="categoryFilter">
-
-
-<option value="all">
-All Categories
-</option>
-
-
-<option value="keyboard">
-Keyboard
-</option>
-
-
-<option value="mouse">
-Gaming Mouse
-</option>
-
-
-<option value="headset">
-Headset
-</option>
-
-
-<option value="controller">
-Controller
-</option>
-
-
-<option value="chair">
-Gaming Chair
-</option>
-
-
-<option value="monitor">
-Monitor
-</option>
-
-
-</select>
-
-
-
-
-
-<select id="priceFilter">
-
-
-<option value="all">
-All Prices
-</option>
-
-
-<option value="low">
-Under $50
-</option>
-
-
-<option value="medium">
-$50 - $100
-</option>
-
-
-<option value="high">
-Above $100
-</option>
-
-
-</select>
-
-
-
-
-
-
-<select id="ratingFilter">
-
-
-<option value="all">
-All Ratings
-</option>
-
-
-<option value="5">
-★★★★★
-</option>
-
-
-<option value="4">
-★★★★☆
-</option>
-
-
-<option value="3">
-★★★☆☆
-</option>
-
-
-</select>
-
-
-
-
-
-
-<select id="sortProducts">
-
-
-<option value="newest">
-Newest
-</option>
-
-
-<option value="low-high">
-Price Low to High
-</option>
-
-
-<option value="high-low">
-Price High to Low
-</option>
-
-
-<option value="rating">
-Highest Rating
-</option>
-
-
-</select>
-
-
-
+<!-- Promotional Banner -->
+<section class="w-full px-margin-desktop py-section-gap overflow-hidden">
+<div class="max-w-container-max mx-auto relative group">
+<div class="absolute inset-0 bg-primary-fixed-dim/5 backdrop-blur-3xl -z-10 group-hover:bg-primary-fixed-dim/10 transition-colors"></div>
+<div class="relative border-l-4 border-primary-fixed-dim p-12 md:p-24 flex flex-col md:flex-row items-center justify-between gap-12 overflow-hidden">
+<!-- Background Decoration -->
+<div class="absolute right-0 top-1/2 -translate-y-1/2 opacity-5 pointer-events-none">
+<span class="font-display-lg text-[240px] leading-none select-none">FLASH</span>
 </div>
-
-
-
+<div class="relative z-10 max-w-xl">
+<div class="flex items-center gap-3 mb-8">
+<span class="w-3 h-3 bg-primary-fixed-dim animate-pulse"></span>
+<span class="font-label-caps text-label-caps text-primary-fixed-dim tracking-[0.3em] uppercase">Limited Deployment</span>
+</div>
+<h2 class="font-display-lg text-display-lg text-primary mb-6">Phase Shift Sale</h2>
+<p class="font-body-lg text-on-surface-variant mb-10 leading-relaxed">System-wide optimizations on all Pro Series peripherals. Access granted for a limited temporal window only.</p>
+<div class="flex flex-wrap gap-6">
+<button class="bg-primary-fixed-dim text-on-primary-fixed font-label-caps text-label-caps py-4 px-12 tracking-widest hover:shadow-[0_0_40px_rgba(160,216,0,0.4)] transition-all uppercase">Secure Discount</button>
+<div class="flex flex-col justify-center">
+<span class="font-mono-data text-mono-data text-on-surface-variant opacity-50">Ends in</span>
+<span class="font-mono-data text-body-lg text-primary tabular-nums" id="timer">04:59:59</span>
+</div>
+</div>
+</div>
+<div class="relative z-10 w-full md:w-1/3 aspect-video bg-surface-container rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-110 group-hover:scale-100" data-alt="Close up of a premium gaming GPU with glowing Cyber Lime fans and a complex heatpipe system visible behind dark tinted glass. The overall look is one of immense power and precision engineering." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkXcbh2p3rL2_ORSB_nNhHjFjqHisO8gROfGqX8GLflRnYNbEHnFn-j0d47l2vS8GkbtJeGX8AFvGuhrY9pNjakxqcKf_jw6ZQkCPYTUxdclOv9FcQpfZumN3JlV7tXVQJgAbfi8yTkhdVWcOIZTbN7SLhNkNjdoovmB74xTg3BJt_rTy23qaSf6qVnljQdVS3CkW5BDKTGmQkDbChAvUdkuL8xc_r0hZQjZDmIFhDFGXuuRHV0EVH"/>
+</div>
+</div>
+</div>
 </section>
-
-
-
-
-
-
-<!-- ================= PRODUCTS ================= -->
-
-
-<section class="products-page">
-
-
-<div class="product-grid" id="productContainer">
-
-
-
-<!-- PRODUCT CARD 1 -->
-
-
-<div class="product-card"
-data-category="keyboard"
-data-price="99"
-data-rating="5">
-
-
-<div class="product-image">
-
-
-<img src="images/products/keyboard1.jpg"
-alt="RGB Mechanical Keyboard">
-
-
-
-<span class="sale">
-SALE
-</span>
-
-
-</div>
-
-
-
-<div class="product-info">
-
-
-<h3>
-RGB Mechanical Keyboard
-</h3>
-
-
-
-<div class="rating">
-★★★★★
-</div>
-
-
-
-<h4>
-$99.99
-</h4>
-
-
-
-<div class="product-buttons">
-
-
-<button class="quick-view">
-<i class="fas fa-eye"></i>
-</button>
-
-
-<button class="wishlist">
-<i class="far fa-heart"></i>
-</button>
-
-
-<button class="compare">
-<i class="fas fa-code-compare"></i>
-</button>
-
-
-
-</div>
-
-
-
-<button class="add-cart">
-
-Add To Cart
-
-</button>
-
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-<!-- PRODUCT CARD 2 -->
-
-
-<div class="product-card"
-data-category="mouse"
-data-price="59"
-data-rating="5">
-
-
-<div class="product-image">
-
-
-<img src="images/products/mouse1.jpg"
-alt="Gaming Mouse">
-
-
-</div>
-
-
-
-<div class="product-info">
-
-
-<h3>
-RGB Gaming Mouse Pro
-</h3>
-
-
-<div class="rating">
-★★★★★
-</div>
-
-
-<h4>
-$59.99
-</h4>
-
-
-
-<div class="product-buttons">
-
-
-<button class="quick-view">
-<i class="fas fa-eye"></i>
-</button>
-
-
-<button class="wishlist">
-<i class="far fa-heart"></i>
-</button>
-
-
-<button class="compare">
-<i class="fas fa-code-compare"></i>
-</button>
-
-
-</div>
-
-
-<button class="add-cart">
-
-Add To Cart
-
-</button>
-
-
-</div>
-
-
-</div>
+<!-- Micro-interaction Script -->
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Simple countdown timer logic
+            let time = 17999; // 5 hours in seconds
+            const timerDisplay = document.getElementById('timer');
+            
+            setInterval(() => {
+                const hours = Math.floor(time / 3600);
+                const minutes = Math.floor((time % 3600) / 60);
+                const seconds = time % 60;
+                
+                timerDisplay.textContent = 
+                    `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+                
+                if (time > 0) time--;
+            }, 1000);
+
+            // Hover effect on grid
+            const cards = document.querySelectorAll('.group');
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', () => {
+                    // Custom hover logic could go here
+                });
+            });
+        });
+    </script>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/5 py-section-gap"><div class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter"><div class="col-span-1"><div class="flex items-center gap-base mb-6"><img alt="GameZone Logo" class="h-6 w-auto opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBn_xEcolY2_sa6CdSIi3XyGi1UxIUxADrg8f7ykavdJq3LwbnummPiwminf1V6_dIF0ZU5UsBRcaA8gfnjOzfBFmxZggjd-zLP-Qge2oojRuNpuw7UmqdHXFWXDii567lYYFysrwtPTMFGVyUkdwY2XvOfQmuTseISM8Eiz3cPPyDvhMv6x4uXhy1GOjBPBGDRMGRpKKCN8Sxa9c1_TZrPLEi_8wK0hHPam4NnXeu3aOVbFVY9gZie"/><span class="font-label-caps text-label-caps text-on-surface tracking-widest uppercase">GameZone</span></div><p class="text-on-surface-variant text-body-md opacity-70">Elevating performance through premium minimalist engineering.</p></div><div class="flex flex-col gap-4"><h4 class="font-label-caps text-label-caps text-primary mb-2">Quick Links</h4><a class="text-on-surface-variant hover:text-primary text-body-md transition-colors" href="#">Shop All</a><a class="text-on-surface-variant hover:text-primary text-body-md transition-colors" href="#">Customization</a><a class="text-on-surface-variant hover:text-primary text-body-md transition-colors" href="#">Pro Series Specs</a></div><div class="flex flex-col gap-4"><h4 class="font-label-caps text-label-caps text-primary mb-2">Support</h4><a class="text-on-surface-variant hover:text-primary text-body-md transition-colors" href="#">Warranties</a><a class="text-on-surface-variant hover:text-primary text-body-md transition-colors" href="#">Technical Guide</a><a class="text-on-surface-variant hover:text-primary text-body-md transition-colors" href="#">Direct Line</a></div><div class="flex flex-col gap-4"><h4 class="font-label-caps text-label-caps text-primary mb-2">Join the Elite</h4><p class="text-on-surface-variant text-body-md mb-2">Receive encrypted hardware updates.</p><div class="flex border-b border-outline-variant"><input class="bg-transparent py-2 w-full focus:outline-none text-on-surface font-body-md" placeholder="Your email" type="email"/><button class="text-primary hover:text-primary-fixed-dim"><span class="material-symbols-outlined">arrow_forward</span></button></div></div></div><div class="max-w-container-max mx-auto px-margin-desktop mt-24 pt-8 border-t border-outline-variant/5 flex flex-col md:flex-row justify-between items-center gap-4 text-on-surface-variant text-mono-data opacity-50"><span>© 2024 GAMEZONE LTD. ACCESS GRANTED.</span><div class="flex gap-8"><span>PRIVACY</span><span>TERMS</span><span>SECURITY</span></div></div></footer></body></html>
